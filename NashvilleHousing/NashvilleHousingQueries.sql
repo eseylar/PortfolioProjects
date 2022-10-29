@@ -351,8 +351,18 @@ FROM
 
 ----------------------------------------------------------------------------------------------------------------------
 
--- Remove Duplicates using PARTITION and a WITH CTE              *****HOW TO USE??????********
+/* ------- Removing Duplicate Rows ------- */
 
+  --Using window fuctions (CTE), PARTITION BY, and ROW_NUMBER () to identify duplicate rows.
+  --Using this partition, duplicated rows would have a number larger than 1 (because all data is the same in the partition). 
+
+
+--Starting with a CTE to number rows, partitioned by the duplicated elements.
+--The SELECT statement then selects all rows where the row_num (based on the partition) is greater than 1.
+--All rows with a row_num greater than 1 are duplicates.
+
+WITH row_num_cte AS
+(
 SELECT
   *,
   ROW_NUMBER () OVER (
@@ -362,15 +372,42 @@ SELECT
       sale_price,
       sale_date,
       legal_reference,
----    ORDER BY
----      unique_id
   ) AS row_num
 FROM
   `adept-turbine-353215.nashville_housing.housing_data01`
-ORDER BY 
-  row_num
+)
 
+SELECT
+  *
+FROM
+  row_num_cte
+WHERE
+  row_num > 1
+  
+  
+ 
+--After identifying and verifying the duplicates, a simple change of SELECT to DELETE will remove the duplicates.
 
----------------------------------------------------------------------------------------------------------
+WITH row_num_cte AS
+(
+SELECT
+  *,
+  ROW_NUMBER () OVER (
+    PARTITION BY
+      parcel_id,
+      property_address,
+      sale_price,
+      sale_date,
+      legal_reference,
+  ) AS row_num
+FROM
+  `adept-turbine-353215.nashville_housing.housing_data01`
+)
 
--- Delete Unused Columns
+DELETE
+  *
+FROM
+  row_num_cte
+WHERE
+  row_num > 1
+              --Note: On the free version of BigQuery, I am unable to use DML like DELETE. 
