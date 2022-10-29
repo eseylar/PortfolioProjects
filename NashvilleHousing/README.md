@@ -28,6 +28,8 @@ The dataset for this project is a set of information about real estate sales in 
     `bedroom,`
     `full_bath,`
     `half_bath`
+
+The document ****NashvilleHousingQueries.sql**** contains all the queries used to clean the dataset, as well as comments explaining the process and why certain techniques were used.
     
 ### Data Cleaning Techniques
 
@@ -35,5 +37,18 @@ The dataset is "dirty" insofar as there are many duplicate rows, rows with missi
 
 To clean this dataset, I employed some of the following techniques:
 
+- populating missing data from other locations in the dataset using self-JOINS
+- removing duplicates using WITH statements, PARTITION BY, and ROW_NUMBER()
+- splitting string along delimiters into new columns using SUBSTRING() and STRPOS() (STRPOS is BigQuery's equivilent to CHARINDEX)
+- normalizing inconsistent string responses using CASE
+- parsing date values from stings using PARSE() 
+- converting "null" string to NULL values using NULLIF()
+- converting columns from the imported string type to a more appropriate type using CAST()
+
 
 ### Additional Project Successes 
+
+Though this data cleaning project was inspired by creator AlexTheAnalyst, I faced many additional roadblocks that I had to independently problem solve. Here are some steps I had to take to properly clean this dataset:
+
+- The SQL editor/IDE I used was Google BigQuery, a relatively less popular SQL editor compared to MS SQL Server or MySQL. This means that tech support for BigQuery is not as easy to find. Further, certain BigQuery functions are different than the functions on more popular databases. I frequently had to read through the BigQuery documentation to find the functions and syntax I needed to properly clean the data. 
+- 
