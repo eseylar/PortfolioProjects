@@ -1,4 +1,14 @@
-### A. Customer Nodes Exploration
+# Case Study #4 - Data Bank
+
+https://8weeksqlchallenge.com/case-study-4/
+
+### Schema
+
+https://github.com/eseylar/PortfolioProjects/blob/main/8WeekSQLChallenge/CaseStudy4/schema.sql
+
+---
+
+## A. Customer Nodes Exploration
 
 ### 1. How many unique nodes are there on the Data Bank system?
 
@@ -116,7 +126,7 @@ GROUP BY
 
 ---
 
-### **B. Customer Transactions**
+## **B. Customer Transactions**
 
 ### 1. What is the unique count and total amount for each transaction type?
 
