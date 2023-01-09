@@ -434,3 +434,205 @@ WHERE
 | count |
 | --- |
 | 269 |
+
+---
+
+## C. Data Allocation Challenge
+
+### 1. Running customer balance column that includes the impact each transaction
+
+```sql
+WITH cte AS
+(
+SELECT
+	*
+    , CASE 
+    	WHEN txn_type = 'deposit' THEN txn_amount
+        WHEN txn_type = 'purchase' THEN (-1 * txn_amount)
+        WHEN txn_type = 'withdrawal' THEN (-1 * txn_amount)
+        ELSE NULL
+        END
+      AS balance_change
+	, DENSE_RANK () OVER
+  		(PARTITION BY customer_id ORDER BY txn_date) AS txn_order
+FROM
+	data_bank.customer_transactions
+ORDER BY
+	customer_id
+    , txn_date
+)
+
+SELECT
+	customer_id
+    , txn_date
+    , txn_order
+    , txn_type
+    , txn_amount
+    , balance_change --the impact of each transaction represented as either a positive or negative value
+    , SUM (balance_change) 
+    	OVER (PARTITION BY customer_id ORDER BY txn_order) 
+      AS running_balance --the balance of the account after each transaction
+FROM
+	cte
+```
+
+*Sample of the table*
+
+| customer_id | txn_date | txn_order | txn_type | txn_amount | balance_change | running_balance |
+| --- | --- | --- | --- | --- | --- | --- |
+| 1 | 2020-01-02T00:00:00.000Z | 1 | deposit | 312 | 312 | 312 |
+| 1 | 2020-03-05T00:00:00.000Z | 2 | purchase | 612 | -612 | -300 |
+| 1 | 2020-03-17T00:00:00.000Z | 3 | deposit | 324 | 324 | 24 |
+| 1 | 2020-03-19T00:00:00.000Z | 4 | purchase | 664 | -664 | -640 |
+| 2 | 2020-01-03T00:00:00.000Z | 1 | deposit | 549 | 549 | 549 |
+| 2 | 2020-03-24T00:00:00.000Z | 2 | deposit | 61 | 61 | 610 |
+| 3 | 2020-01-27T00:00:00.000Z | 1 | deposit | 144 | 144 | 144 |
+| 3 | 2020-02-22T00:00:00.000Z | 2 | purchase | 965 | -965 | -821 |
+| 3 | 2020-03-05T00:00:00.000Z | 3 | withdrawal | 213 | -213 | -1034 |
+| 3 | 2020-03-19T00:00:00.000Z | 4 | withdrawal | 188 | -188 | -1222 |
+| 3 | 2020-04-12T00:00:00.000Z | 5 | deposit | 493 | 493 | -729 |
+
+### 2. Customer balance at the end of each month
+
+```sql
+WITH cte AS
+(
+SELECT
+	*
+	, DATE_PART ('month', txn_date) AS month_
+    , CASE 
+    	WHEN txn_type = 'deposit' THEN txn_amount
+        WHEN txn_type = 'purchase' THEN (-1 * txn_amount)
+        WHEN txn_type = 'withdrawal' THEN (-1 * txn_amount)
+        ELSE NULL
+        END
+      AS balance_change
+	, DENSE_RANK () OVER
+  		(PARTITION BY customer_id, DATE_PART ('month', txn_date) ORDER BY txn_date) AS txn_order
+FROM
+	data_bank.customer_transactions
+ORDER BY
+	customer_id
+    , txn_date
+),
+
+cte2 AS
+(
+SELECT
+	customer_id
+    , txn_date
+    , month_
+    , txn_order
+    , txn_type
+    , txn_amount
+    , balance_change
+    , SUM (balance_change) 
+    	OVER (PARTITION BY customer_id ORDER BY txn_order) 
+      AS running_balance
+FROM
+	cte
+),
+
+cte3 AS
+(
+SELECT
+	*
+    , DENSE_RANK () OVER
+  		(PARTITION BY customer_id, month_ ORDER BY txn_date DESC) AS final_txn_month
+FROM
+	cte2
+)
+
+SELECT
+	customer_id
+    , month_
+    , running_balance
+FROM
+	cte3
+WHERE
+	final_txn_month = 1
+ORDER BY
+	customer_id
+    , month_
+```
+
+*Sample of the table*
+
+| customer_id | month_ | running_balance |
+| --- | --- | --- |
+| 1 | 1 | -300 |
+| 1 | 3 | -640 |
+| 2 | 1 | 610 |
+| 2 | 3 | 610 |
+| 3 | 1 | -541 |
+| 3 | 2 | -541 |
+| 3 | 3 | -729 |
+| 3 | 4 | -541 |
+| 4 | 1 | 655 |
+| 4 | 3 | 265 |
+| 5 | 1 | -490 |
+| 5 | 3 | -2413 |
+| 5 | 4 | -402 |
+
+### 3. Minimum, average and maximum values of the running balance for each customer
+
+```sql
+WITH cte AS
+(
+SELECT
+	*
+    , CASE 
+    	WHEN txn_type = 'deposit' THEN txn_amount
+        WHEN txn_type = 'purchase' THEN (-1 * txn_amount)
+        WHEN txn_type = 'withdrawal' THEN (-1 * txn_amount)
+        ELSE NULL
+        END
+      AS balance_change
+	, DENSE_RANK () OVER
+  		(PARTITION BY customer_id ORDER BY txn_date) AS txn_order
+FROM
+	data_bank.customer_transactions
+ORDER BY
+	customer_id
+    , txn_date
+), 
+
+cte2 AS
+(
+SELECT
+	customer_id
+    , txn_date
+    , txn_order
+    , txn_type
+    , txn_amount
+    , balance_change --the impact of each transaction represented as either a positive or negative value
+    , SUM (balance_change) 
+    	OVER (PARTITION BY customer_id ORDER BY txn_order) 
+      AS running_balance --the balance of the account after each transaction
+FROM
+	cte
+)
+
+SELECT
+	DISTINCT (customer_id)
+    , MAX (running_balance) OVER
+    	(PARTITION BY customer_id) AS max_balance
+    , MIN (running_balance) OVER
+    	(PARTITION BY customer_id) AS min_balance
+    , ROUND ( AVG  (running_balance) OVER
+    	(PARTITION BY customer_id) , 2 ) AS avg_balance
+FROM
+	cte2
+ORDER BY
+	customer_id
+```
+
+*First 5 rows of the table*
+
+| customer_id | max_balance | min_balance | avg_balance |
+| --- | --- | --- | --- |
+| 1 | 312 | -640 | -151.00 |
+| 2 | 610 | 549 | 579.50 |
+| 3 | 144 | -1222 | -732.40 |
+| 4 | 848 | 458 | 653.67 |
+| 5 | 1780 | -2413 | -135.45 |
