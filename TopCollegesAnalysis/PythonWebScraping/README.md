@@ -1,4 +1,6 @@
-#### The first element of this exploratory data analysis was to actually extract the data needed for analysis by using the Python web-scraping library, Beautiful Soup.
+## Web-Scraping Using Python and Beautiful Soup
+
+**The first element of this exploratory data analysis was to actually extract the data needed for analysis by using the Python web-scraping library, Beautiful Soup.**
 
 After looking at several college ranking websites online, I found that Niche.com had the most information readily available for web-scraping. (Other websites hid quantitative information like acceptance rate or SAT scores behind a paywall; Niche left that information readily accessible.) 
 
