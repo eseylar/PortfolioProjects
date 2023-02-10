@@ -1,0 +1,251 @@
+,rank,name,city_state,city,state,acceptance,price,SAT_range,SAT_low,SAT_high
+0,1,Massachusetts Institute of Technology,"Cambridge, MA",Cambridge,MA,7,19998.0,1510-1580,1510.0,1580.0
+1,2,Stanford University,"Stanford, CA",Stanford,CA,5,20023.0,1420-1570,1420.0,1570.0
+2,3,Harvard University,"Cambridge, MA",Cambridge,MA,5,18037.0,1460-1580,1460.0,1580.0
+3,4,Yale University,"New Haven, CT",New Haven,CT,7,17511.0,1460-1580,1460.0,1580.0
+4,5,Princeton University,"Princeton, NJ",Princeton,NJ,6,18685.0,1450-1570,1450.0,1570.0
+5,6,Rice University,"Houston, TX",Houston,TX,11,19215.0,1460-1570,1460.0,1570.0
+6,7,California Institute of Technology,"Pasadena, CA",Pasadena,CA,7,26591.0,1530-1580,1530.0,1580.0
+7,8,Duke University,"Durham, NC",Durham,NC,8,26932.0,1470-1570,1470.0,1570.0
+8,9,Brown University,"Providence, RI",Providence,RI,8,27659.0,1440-1560,1440.0,1560.0
+9,10,Dartmouth College,"Hanover, NH",Hanover,NH,9,24525.0,1440-1560,1440.0,1560.0
+10,11,University of Pennsylvania,"Philadelphia, PA",Philadelphia,PA,9,24167.0,1460-1570,1460.0,1570.0
+11,12,Columbia University,"New York, NY",New York,NY,7,22126.0,1460-1570,1460.0,1570.0
+12,13,Vanderbilt University,"Nashville, TN",Nashville,TN,12,25804.0,1470-1570,1470.0,1570.0
+13,14,Northwestern University,"Evanston, IL",Evanston,IL,9,28344.0,1430-1550,1430.0,1550.0
+14,15,Washington University in St. Louis,"Saint Louis, MO",Saint Louis,MO,16,27233.0,1480-1560,1480.0,1560.0
+15,16,University of Chicago,"Chicago, IL",Chicago,IL,7,36584.0,1500-1570,1500.0,1570.0
+16,17,Georgetown University,"Washington, DC",Washington,DC,17,30710.0,1380-1550,1380.0,1550.0
+17,18,Harvey Mudd College,"Claremont, CA",Claremont,CA,18,37192.0,1490-1570,1490.0,1570.0
+18,19,University of Notre Dame,"Notre Dame, IN",Notre Dame,IN,19,29981.0,1400-1550,1400.0,1550.0
+19,20,Pomona College,"Claremont, CA",Claremont,CA,9,30392.0,1390-1540,1390.0,1540.0
+20,21,Johns Hopkins University,"Baltimore, MD",Baltimore,MD,11,25241.0,1470-1560,1470.0,1560.0
+21,22,Carnegie Mellon University,"Pittsburgh, PA",Pittsburgh,PA,17,36983.0,1460-1560,1460.0,1560.0
+22,23,Cornell University,"Ithaca, NY",Ithaca,NY,11,27522.0,1400-1540,1400.0,1540.0
+23,24,University of California - Los Angeles,"Los Angeles, CA",Los Angeles,CA,14,16474.0,,,
+24,25,University of Michigan - Ann Arbor,"Ann Arbor, MI",Ann Arbor,MI,26,17832.0,1340-1520,1340.0,1520.0
+25,26,Georgia Institute of Technology,"Atlanta, GA",Atlanta,GA,21,17410.0,1370-1530,1370.0,1530.0
+26,27,University of Virginia,"Charlottesville, VA",Charlottesville,VA,23,19043.0,1320-1510,1320.0,1510.0
+27,28,University of Southern California,"Los Angeles, CA",Los Angeles,CA,16,39759.0,1340-1530,1340.0,1530.0
+28,29,Claremont McKenna College,"Claremont, CA",Claremont,CA,13,22004.0,1330-1500,1330.0,1500.0
+29,30,Bowdoin College,"Brunswick, ME",Brunswick,ME,9,25622.0,1360-1510,1360.0,1510.0
+30,31,Swarthmore College,"Swarthmore, PA",Swarthmore,PA,9,20360.0,1390-1540,1390.0,1540.0
+31,32,Barnard College,"New York, NY",New York,NY,14,30572.0,1350-1520,1350.0,1520.0
+32,33,Davidson College,"Davidson, NC",Davidson,NC,20,28615.0,1300-1460,1300.0,1460.0
+33,34,Emory University,"Atlanta, GA",Atlanta,GA,19,25672.0,1380-1530,1380.0,1530.0
+34,35,United States Military Academy at West Point,"West  Point, NY",West  Point,NY,9,,1210-1440,1210.0,1440.0
+35,36,Wellesley College,"Wellesley, MA",Wellesley,MA,20,21614.0,1350-1520,1350.0,1520.0
+36,37,Washington and Lee University,"Lexington, VA",Lexington,VA,25,27148.0,1350-1500,1350.0,1500.0
+37,38,Tufts University,"Medford, MA",Medford,MA,16,32720.0,1380-1530,1380.0,1530.0
+38,39,Boston College,"Chestnut Hill, MA",Chestnut Hill,MA,26,30192.0,1330-1500,1330.0,1500.0
+39,40,Amherst College,"Amherst, MA",Amherst,MA,12,18832.0,1430-1560,1430.0,1560.0
+40,41,University of Florida,"Gainesville, FL",Gainesville,FL,31,10075.0,1290-1460,1290.0,1460.0
+41,42,University of North Carolina at Chapel Hill,"Chapel Hill, NC",Chapel Hill,NC,25,10038.0,1280-1490,1280.0,1490.0
+42,43,Williams College,"Williamstown, MA",Williamstown,MA,15,22356.0,1410-1550,1410.0,1550.0
+43,44,Middlebury College,"Middlebury, VT",Middlebury,VT,22,24517.0,1340-1520,1340.0,1520.0
+44,45,Northeastern University,"Boston, MA",Boston,MA,20,37738.0,1410-1540,1410.0,1540.0
+45,46,University of Texas - Austin,"Austin, TX",Austin,TX,32,16892.0,1210-1470,1210.0,1470.0
+46,47,Boston University,"Boston, MA",Boston,MA,20,29154.0,1310-1500,1310.0,1500.0
+47,48,University of California - Berkeley,"Berkeley, CA",Berkeley,CA,17,19329.0,1310-1530,1310.0,1530.0
+48,49,Wake Forest University,"Winston-salem, NC",Winston-salem,NC,32,26324.0,1270-1410,1270.0,1410.0
+49,50,New York University,"New York, NY",New York,NY,21,45417.0,1370-1540,1370.0,1540.0
+50,51,Haverford College,"Haverford, PA",Haverford,PA,18,25215.0,1360-1520,1360.0,1520.0
+51,52,University of Georgia,"Athens, GA",Athens,GA,48,16580.0,1250-1460,1250.0,1460.0
+52,53,University of Wisconsin,"Madison, WI",Madison,WI,57,14030.0,1260-1460,1260.0,1460.0
+53,54,Colgate University,"Hamilton, NY",Hamilton,NY,27,25935.0,1300-1470,1300.0,1470.0
+54,55,Babson College,"Wellesley, MA",Wellesley,MA,27,31559.0,1270-1450,1270.0,1450.0
+55,56,Bates College,"Lewiston, ME",Lewiston,ME,14,26451.0,1385-1460,1385.0,1460.0
+56,57,University of Miami,"Coral Gables, FL",Coral Gables,FL,33,31726.0,1250-1420,1250.0,1420.0
+57,58,Hamilton College,"Clinton, NY",Clinton,NY,18,23936.0,1380-1510,1380.0,1510.0
+58,59,University of Illinois Urbana-Champaign,"Urbana, IL",Urbana,IL,63,13517.0,1200-1460,1200.0,1460.0
+59,60,Tulane University,"New Orleans, LA",New Orleans,LA,11,47413.0,1340-1500,1340.0,1500.0
+60,61,Florida State University,"Tallahassee, FL",Tallahassee,FL,32,12815.0,1220-1350,1220.0,1350.0
+61,62,Lehigh University,"Bethlehem, PA",Bethlehem,PA,50,29098.0,1260-1430,1260.0,1430.0
+62,63,William & Mary,"Williamsburg, VA",Williamsburg,VA,42,18588.0,1300-1490,1300.0,1490.0
+63,64,Penn State,"University Park, PA",University Park,PA,56,26151.0,1160-1360,1160.0,1360.0
+64,65,Case Western Reserve University,"Cleveland, OH",Cleveland,OH,30,36002.0,1340-1520,1340.0,1520.0
+65,66,University of California - Irvine,"Irvine, CA",Irvine,CA,30,13106.0,1230-1430,1230.0,1430.0
+66,67,Colby College,"Waterville, ME",Waterville,ME,10,18552.0,1380-1520,1380.0,1520.0
+67,68,Virginia Tech,"Blacksburg, VA",Blacksburg,VA,66,20247.0,1170-1370,1170.0,1370.0
+68,69,Villanova University,"Villanova, PA",Villanova,PA,31,38303.0,1320-1460,1320.0,1460.0
+69,70,University of Washington,"Seattle, WA",Seattle,WA,56,9661.0,1200-1470,1200.0,1470.0
+70,71,Wesleyan University,"Middletown, CT",Middletown,CT,21,22845.0,1300-1480,1300.0,1480.0
+71,72,University of Rochester,"Rochester, NY",Rochester,NY,35,36254.0,1330-1510,1330.0,1510.0
+72,73,Grinnell College,"Grinnell, IA",Grinnell,IA,19,32091.0,1370-1540,1370.0,1540.0
+73,74,Vassar College,"Poughkeepsie, NY",Poughkeepsie,NY,25,26028.0,1360-1520,1360.0,1520.0
+74,75,Texas A&M University,"College Station, TX",College Station,TX,63,19906.0,1160-1380,1160.0,1380.0
+75,76,University of California - San Diego,"La Jolla, CA",La Jolla,CA,37,15222.0,1270-1480,1270.0,1480.0
+76,77,Carleton College,"Northfield, MN",Northfield,MN,21,30843.0,1330-1520,1330.0,1520.0
+77,78,The Cooper Union for the Advancement of Science and Art,"New York, NY",New York,NY,18,25005.0,1330-1500,1330.0,1500.0
+78,79,Purdue University,"West Lafayette, IN",West Lafayette,IN,67,12294.0,1170-1420,1170.0,1420.0
+79,80,The Ohio State University,"Columbus, OH",Columbus,OH,68,18884.0,1210-1430,1210.0,1430.0
+80,81,University of Richmond,"University Of Richmond, VA",University Of Richmond,VA,31,25700.0,1280-1460,1280.0,1460.0
+81,82,Southern Methodist University,"Dallas, TX",Dallas,TX,53,41444.0,1250-1450,1250.0,1450.0
+82,83,North Carolina State University,"Raleigh, NC",Raleigh,NC,46,14600.0,1230-1410,1230.0,1410.0
+83,84,Macalester College,"Saint Paul, MN",Saint Paul,MN,39,35589.0,1280-1450,1280.0,1450.0
+84,85,University of California - Davis,"Davis, CA",Davis,CA,46,17026.0,1160-1400,1160.0,1400.0
+85,86,Smith College,"Northampton, MA",Northampton,MA,37,28422.0,1240-1470,1240.0,1470.0
+86,87,Kenyon College,"Gambier, OH",Gambier,OH,37,40862.0,1280-1460,1280.0,1460.0
+87,88,College of the Holy Cross,"Worcester, MA",Worcester,MA,38,32061.0,1290-1430,1290.0,1430.0
+88,89,University of California - Santa Barbara,"Santa Barbara, CA",Santa Barbara,CA,37,17223.0,1230-1460,1230.0,1460.0
+89,90,University of Pittsburgh,"Pittsburgh, PA",Pittsburgh,PA,64,22346.0,1250-1420,1250.0,1420.0
+90,91,Pitzer College,"Claremont, CA",Claremont,CA,17,30095.0,1300-1450,1300.0,1450.0
+91,92,University of Minnesota Twin Cities,"Minneapolis, MN",Minneapolis,MN,70,17729.0,1240-1460,1240.0,1460.0
+92,93,Lafayette College,"Easton, PA",Easton,PA,36,28735.0,1250-1440,1250.0,1440.0
+93,94,Bucknell University,"Lewisburg, PA",Lewisburg,PA,38,39359.0,1250-1430,1250.0,1430.0
+94,95,George Washington University,"Washington, DC",Washington,DC,43,40308.0,1270-1450,1270.0,1450.0
+95,96,Colorado School of Mines,"Golden, CO",Golden,CO,55,27675.0,1270-1440,1270.0,1440.0
+96,97,University of South Florida,"Tampa, FL",Tampa,FL,49,10004.0,1160-1320,1160.0,1320.0
+97,98,Brigham Young University,"Provo, UT",Provo,UT,69,13150.0,1200-1410,1200.0,1410.0
+98,99,Trinity University,"San Antonio, TX",San Antonio,TX,34,31141.0,1250-1420,1250.0,1420.0
+99,100,University of Maryland - College Park,"College Park, MD",College Park,MD,51,17643.0,1270-1480,1270.0,1480.0
+100,101,Colorado College,"Colorado Springs, CO",Colorado Springs,CO,14,27319.0,,,
+101,102,Scripps College,"Claremont, CA",Claremont,CA,35,40259.0,1320-1480,1320.0,1480.0
+102,103,Michigan State University,"East Lansing, MI",East Lansing,MI,76,16655.0,1100-1300,1100.0,1300.0
+103,104,Texas Christian University,"Fort Worth, TX",Fort Worth,TX,48,40220.0,1110-1320,1110.0,1320.0
+104,105,Clemson University,"Clemson, SC",Clemson,SC,62,22935.0,1210-1390,1210.0,1390.0
+105,106,Santa Clara University,"Santa Clara, CA",Santa Clara,CA,51,48284.0,1270-1450,1270.0,1450.0
+106,107,Reed College,"Portland, OR",Portland,OR,42,33980.0,1320-1520,1320.0,1520.0
+107,108,Skidmore College,"Saratoga Springs, NY",Saratoga Springs,NY,32,26995.0,1220-1400,1220.0,1400.0
+108,109,Rose-Hulman Institute of Technology,"Terre Haute, IN",Terre Haute,IN,77,43606.0,1260-1460,1260.0,1460.0
+109,110,Rensselaer Polytechnic Institute,"Troy, NY",Troy,NY,57,40661.0,1300-1500,1300.0,1500.0
+110,111,Rutgers University–New Brunswick,"Piscataway, NJ",Piscataway,NJ,67,17835.0,1180-1410,1180.0,1410.0
+111,112,Oklahoma State University,"Stillwater, OK",Stillwater,OK,67,14763.0,1020-1250,1020.0,1250.0
+112,113,Indiana University - Bloomington,"Bloomington, IN",Bloomington,IN,80,13191.0,1120-1350,1120.0,1350.0
+113,114,Michigan Technological University,"Houghton, MI",Houghton,MI,70,17356.0,1160-1350,1160.0,1350.0
+114,115,University of Massachusetts Amherst,"Amherst, MA",Amherst,MA,65,22505.0,1200-1390,1200.0,1390.0
+115,116,Pepperdine University,"Malibu, CA",Malibu,CA,42,46550.0,1200-1410,1200.0,1410.0
+116,117,Bryn Mawr College,"Bryn Mawr, PA",Bryn Mawr,PA,38,37015.0,1310-1500,1310.0,1500.0
+117,118,University of Central Florida,"Orlando, FL",Orlando,FL,45,11108.0,1160-1340,1160.0,1340.0
+118,119,The University of Tulsa,"Tulsa, OK",Tulsa,OK,69,25333.0,1080-1330,1080.0,1330.0
+119,120,Brandeis University,"Waltham, MA",Waltham,MA,33,41222.0,1320-1510,1320.0,1510.0
+120,121,Trinity College - Connecticut,"Hartford, CT",Hartford,CT,36,26233.0,1300-1450,1300.0,1450.0
+121,122,Union College - New York,"Schenectady, NY",Schenectady,NY,41,37630.0,1210-1400,1210.0,1400.0
+122,123,University of Iowa,"Iowa City, IA",Iowa City,IA,84,17452.0,1110-1310,1110.0,1310.0
+123,124,University of Utah,"Salt Lake City, UT",Salt Lake City,UT,79,12881.0,1130-1350,1130.0,1350.0
+124,125,Wheaton College - Illinois,"Wheaton, IL",Wheaton,IL,87,27474.0,1210-1450,1210.0,1450.0
+125,126,University of Alabama - Birmingham,"Birmingham, AL",Birmingham,AL,81,16978.0,1090-1340,1090.0,1340.0
+126,127,Arizona State University,"Tempe, AZ",Tempe,AZ,88,14653.0,1100-1320,1100.0,1320.0
+127,128,United States Merchant Marine Academy,"Kings Point, NY",Kings Point,NY,24,4574.0,1220-1360,1220.0,1360.0
+128,129,Occidental College,"Los Angeles, CA",Los Angeles,CA,41,41102.0,1270-1460,1270.0,1460.0
+129,130,Florida International University,"Miami, FL",Miami,FL,58,8988.0,1110-1260,1110.0,1260.0
+130,131,University of Cincinnati,"Cincinnati, OH",Cincinnati,OH,76,22767.0,1120-1330,1120.0,1330.0
+131,132,Saint Louis University,"St. Louis, MO",St. Louis,MO,56,27872.0,1160-1370,1160.0,1370.0
+132,133,Iowa State University,"Ames, IA",Ames,IA,88,16105.0,1010-1310,1010.0,1310.0
+133,134,University of Mississippi,"University , MS",University ,MS,88,13540.0,1010-1230,1010.0,1230.0
+134,135,Auburn University,"Auburn, AL",Auburn,AL,85,24028.0,1150-1320,1150.0,1320.0
+135,136,University of South Carolina,"Columbia, SC",Columbia,SC,68,21784.0,1140-1340,1140.0,1340.0
+136,137,Mount Holyoke College,"South Hadley, MA",South Hadley,MA,52,31165.0,1270-1500,1270.0,1500.0
+137,138,Worcester Polytechnic Institute,"Worcester, MA",Worcester,MA,59,45834.0,1310-1480,1310.0,1480.0
+138,139,University of Oklahoma,"Norman, OK",Norman,OK,83,21836.0,1100-1300,1100.0,1300.0
+139,140,St. Olaf College,"Northfield, MN",Northfield,MN,51,27838.0,1150-1390,1150.0,1390.0
+140,141,University of South Florida - Sarasota-Manatee,"Sarasota, FL",Sarasota,FL,24,2734.0,1160-1290,1160.0,1290.0
+141,142,Denison University,"Granville, OH",Granville,OH,28,39808.0,1220-1430,1220.0,1430.0
+142,143,University of Delaware,"Newark, DE",Newark,DE,66,19747.0,1150-1330,1150.0,1330.0
+143,144,University of Connecticut,"Storrs, CT",Storrs,CT,56,22233.0,1170-1390,1170.0,1390.0
+144,145,Loyola Marymount University,"Los Angeles, CA",Los Angeles,CA,50,48758.0,1210-1390,1210.0,1390.0
+145,146,University of San Diego,"San Diego, CA",San Diego,CA,59,37547.0,1190-1370,1190.0,1370.0
+146,147,American University,"Washington, DC",Washington,DC,39,37319.0,1220-1390,1220.0,1390.0
+147,148,Texas Tech University,"Lubbock, TX",Lubbock,TX,70,15452.0,1070-1240,1070.0,1240.0
+148,149,Stevens Institute of Technology,"Hoboken, NJ",Hoboken,NJ,53,40303.0,1320-1480,1320.0,1480.0
+149,150,University of Dayton,"Dayton, OH",Dayton,OH,81,32768.0,1080-1300,1080.0,1300.0
+150,151,Creighton University,"Omaha, NE",Omaha,NE,64,32355.0,1170-1350,1170.0,1350.0
+151,152,California Polytechnic State University (Cal Poly) - San Luis Obispo,"San Luis Obispo, CA",San Luis Obispo,CA,38,20491.0,1240-1440,1240.0,1440.0
+152,153,Wabash College,"Crawfordsville, IN",Crawfordsville,IN,63,24412.0,1120-1320,1120.0,1320.0
+153,154,Yeshiva University,"New York, NY",New York,NY,67,35603.0,1140-1410,1140.0,1410.0
+154,155,The University of Kansas,"Lawrence, KS",Lawrence,KS,91,20054.0,1070-1320,1070.0,1320.0
+155,156,University of Missouri,"Columbia, MO",Columbia,MO,82,16930.0,1110-1320,1110.0,1320.0
+156,157,Rhode Island School of Design,"Providence, RI",Providence,RI,27,40048.0,1250-1470,1250.0,1470.0
+157,158,The University of Alabama,"Tuscaloosa, AL",Tuscaloosa,AL,80,20518.0,1070-1330,1070.0,1330.0
+158,159,University of Portland,"Portland, OR",Portland,OR,77,37317.0,1130-1320,1130.0,1320.0
+159,160,University of Nebraska - Lincoln,"Lincoln, NE",Lincoln,NE,78,17341.0,1110-1320,1110.0,1320.0
+160,161,Bentley University,"Waltham, MA",Waltham,MA,58,42759.0,1180-1360,1180.0,1360.0
+161,162,SUNY College of Environmental Science & Forestry,"Syracuse, NY",Syracuse,NY,60,22133.0,1130-1300,1130.0,1300.0
+162,163,University of Colorado Denver,"Denver, CO",Denver,CO,66,15585.0,1000-1210,1000.0,1210.0
+163,164,Furman University,"Greenville, SC",Greenville,SC,65,37761.0,1230-1400,1230.0,1400.0
+164,165,University of Arkansas,"Fayetteville, AR",Fayetteville,AR,78,16759.0,1090-1280,1090.0,1280.0
+165,166,"Binghamton University, SUNY","Vestal, NY",Vestal,NY,43,19061.0,1290-1450,1290.0,1450.0
+166,167,Harding University,"Searcy, AR",Searcy,AR,55,19454.0,1060-1290,1060.0,1290.0
+167,168,California State University - Long Beach,"Long Beach, CA",Long Beach,CA,42,10568.0,1020-1240,1020.0,1240.0
+168,169,University of Arizona,"Tucson, AZ",Tucson,AZ,85,15620.0,1090-1350,1090.0,1350.0
+169,170,Gettysburg College,"Gettysburg, PA",Gettysburg,PA,48,34850.0,1200-1370,1200.0,1370.0
+170,171,James Madison University,"Harrisonburg, VA",Harrisonburg,VA,80,18592.0,1120-1280,1120.0,1280.0
+171,172,Baylor University,"Waco, TX",Waco,TX,68,40133.0,1200-1380,1200.0,1380.0
+172,173,Connecticut College,"New London, CT",New London,CT,38,40474.0,1310-1450,1310.0,1450.0
+173,174,Clark University,"Worcester, MA",Worcester,MA,47,30617.0,1150-1350,1150.0,1350.0
+174,175,Point Loma Nazarene University,"San Diego, CA",San Diego,CA,84,34644.0,1100-1290,1100.0,1290.0
+175,176,Rhodes College,"Memphis, TN",Memphis,TN,51,29852.0,1220-1400,1220.0,1400.0
+176,177,DePauw University,"Greencastle, IN",Greencastle,IN,68,30183.0,1110-1360,1110.0,1360.0
+177,178,Mississippi College,"Clinton, MS",Clinton,MS,29,18800.0,1140-1260,1140.0,1260.0
+178,179,Oregon State University,"Corvallis, OR",Corvallis,OR,82,21444.0,1080-1310,1080.0,1310.0
+179,180,Andrews University,"Berrien Springs, MI",Berrien Springs,MI,49,22850.0,1030-1380,1030.0,1380.0
+180,181,University of South Florida - St. Petersburg,"St. Petersburg, FL",St. Petersburg,FL,27,10841.0,1140-1280,1140.0,1280.0
+181,182,Drake University,"Des Moines, IA",Des Moines,IA,68,30321.0,1110-1340,1110.0,1340.0
+182,183,University of Colorado Boulder,"Boulder, CO",Boulder,CO,84,21198.0,1130-1350,1130.0,1350.0
+183,184,San Diego State University,"San Diego, CA",San Diego,CA,37,13192.0,1090-1300,1090.0,1300.0
+184,185,Kansas State University,"Manhattan, KS",Manhattan,KS,95,18494.0,,,
+185,186,New Mexico Tech,"Socorro, NM",Socorro,NM,97,14834.0,1150-1370,1150.0,1370.0
+186,187,Lewis & Clark College,"Portland, OR",Portland,OR,80,37478.0,1210-1380,1210.0,1380.0
+187,188,South Dakota School of Mines & Technology,"Rapid City, SD",Rapid City,SD,86,19799.0,1150-1350,1150.0,1350.0
+188,189,Virginia Military Institute,"Lexington, VA",Lexington,VA,60,18969.0,1070-1260,1070.0,1260.0
+189,190,Johnson University,"Knoxville, TN",Knoxville,TN,55,18292.0,990-1200,990.0,1200.0
+190,191,Mississippi State University,"Mississippi State, MS",Mississippi State,MS,80,16402.0,1050-1270,1050.0,1270.0
+191,192,Fairfield University,"Fairfield, CT",Fairfield,CT,56,43173.0,1190-1340,1190.0,1340.0
+192,193,Washington State University,"Pullman, WA",Pullman,WA,80,17931.0,1020-1210,1020.0,1210.0
+193,194,College of the Ozarks,"Point Lookout, MO",Point Lookout,MO,14,7505.0,1090-1240,1090.0,1240.0
+194,195,Lipscomb University,"Nashville, TN",Nashville,TN,62,26421.0,1080-1310,1080.0,1310.0
+195,196,Chapman University,"Orange, CA",Orange,CA,58,44327.0,1170-1350,1170.0,1350.0
+196,197,Union University,"Jackson, TN",Jackson,TN,58,26906.0,1070-1330,1070.0,1330.0
+197,198,Lawrence University,"Appleton, WI",Appleton,WI,69,26594.0,1190-1410,1190.0,1410.0
+198,199,Cedarville University,"Cedarville, OH",Cedarville,OH,59,24965.0,1110-1350,1110.0,1350.0
+199,200,University of Wyoming,"Laramie, WY",Laramie,WY,94,12224.0,1040-1240,1040.0,1240.0
+200,201,Franciscan Missionaries of Our Lady University,"Baton Rouge, LA",Baton Rouge,LA,47,14531.0,,,
+201,202,Embry-Riddle Aeronautical University - Daytona Beach,"Daytona Beach, FL",Daytona Beach,FL,61,36906.0,1120-1330,1120.0,1330.0
+202,203,University of St. Thomas - Minnesota,"Saint Paul, MN",Saint Paul,MN,87,31799.0,1130-1340,1130.0,1340.0
+203,204,Drexel University,"Philadelphia, PA",Philadelphia,PA,77,39463.0,1180-1380,1180.0,1380.0
+204,205,Florida Institute of Technology,"Melbourne, FL",Melbourne,FL,70,33313.0,1130-1330,1130.0,1330.0
+205,206,Syracuse University,"Syracuse, NY",Syracuse,NY,69,47177.0,1180-1380,1180.0,1380.0
+206,207,University of San Francisco,"San Francisco, CA",San Francisco,CA,70,42801.0,1140-1330,1140.0,1330.0
+207,208,John Brown University,"Siloam Springs, AR",Siloam Springs,AR,59,21578.0,1090-1310,1090.0,1310.0
+208,209,Oberlin College,"Oberlin, OH",Oberlin,OH,35,42745.0,1270-1360,1270.0,1360.0
+209,210,College of Wooster,"Wooster, OH",Wooster,OH,65,27923.0,1150-1380,1150.0,1380.0
+210,211,CUNY John Jay College of Criminal Justice,"New York, NY",New York,NY,37,4221.0,1020-1160,1020.0,1160.0
+211,212,"University at Buffalo, SUNY","Buffalo, NY",Buffalo,NY,67,18119.0,1140-1310,1140.0,1310.0
+212,213,DePaul University,"Chicago, IL",Chicago,IL,70,33319.0,1050-1260,1050.0,1260.0
+213,214,University of Louisville,"Louisville, KY",Louisville,KY,65,17894.0,1050-1270,1050.0,1270.0
+214,215,Franklin & Marshall College,"Lancaster, PA",Lancaster,PA,37,28038.0,1200-1420,1200.0,1420.0
+215,216,Ouachita Baptist University,"Arkadelphia, AR",Arkadelphia,AR,62,20534.0,1060-1250,1060.0,1250.0
+216,217,Temple University,"Philadelphia, PA",Philadelphia,PA,71,23254.0,1010-1230,1010.0,1230.0
+217,218,Rollins College,"Winter Park, FL",Winter Park,FL,61,33216.0,1100-1290,1100.0,1290.0
+218,219,"University of Maryland, Baltimore County","Baltimore, MD",Baltimore,MD,69,16868.0,1150-1350,1150.0,1350.0
+219,220,University of Texas - Dallas,"Richardson, TX",Richardson,TX,79,11185.0,1220-1450,1220.0,1450.0
+220,221,Hendrix College,"Conway, AR",Conway,AR,71,20778.0,1150-1360,1150.0,1360.0
+221,222,Illinois Wesleyan University,"Bloomington, IL",Bloomington,IL,57,32545.0,1100-1300,1100.0,1300.0
+222,223,University of Kentucky,"Lexington, KY",Lexington,KY,96,19831.0,1070-1280,1070.0,1280.0
+223,224,Louisiana Tech University,"Ruston, LA",Ruston,LA,64,11630.0,1060-1260,1060.0,1260.0
+224,225,Colorado State University,"Fort Collins, CO",Fort Collins,CO,84,17609.0,1070-1280,1070.0,1280.0
+225,226,Thomas Jefferson University,"Philadelphia, PA",Philadelphia,PA,70,29255.0,1090-1270,1090.0,1270.0
+226,227,"Stony Brook University, SUNY","Stony Brook, NY",Stony Brook,NY,49,16478.0,1230-1440,1230.0,1440.0
+227,228,Marquette University,"Milwaukee, WI",Milwaukee,WI,82,34732.0,1160-1340,1160.0,1340.0
+228,229,University of Illinois Chicago,"Chicago, IL",Chicago,IL,73,12614.0,1030-1250,1030.0,1250.0
+229,230,West Virginia University,"Morgantown, WV",Morgantown,WV,84,13087.0,1030-1230,1030.0,1230.0
+230,231,University of Tennessee,"Knoxville, TN",Knoxville,TN,78,21133.0,1140-1320,1140.0,1320.0
+231,232,University of Houston,"Houston, TX",Houston,TX,63,14480.0,1120-1310,1120.0,1310.0
+232,233,The College of New Jersey,"Ewing, NJ",Ewing,NJ,51,24617.0,1140-1320,1140.0,1320.0
+233,234,Ohio University,"Athens, OH",Athens,OH,87,23307.0,1050-1250,1050.0,1250.0
+234,235,Hope College,"Holland, MI",Holland,MI,78,30320.0,1130-1330,1130.0,1330.0
+235,236,Moody Bible Institute,"Chicago, IL",Chicago,IL,98,18790.0,990-1200,990.0,1200.0
+236,237,Gustavus Adolphus College,"Saint Peter, MN",Saint Peter,MN,71,26701.0,1080-1340,1080.0,1340.0
+237,238,Muhlenberg College,"Allentown, PA",Allentown,PA,62,35152.0,1170-1350,1170.0,1350.0
+238,239,Lake Forest College,"Lake Forest, IL",Lake Forest,IL,58,26968.0,1020-1240,1020.0,1240.0
+239,240,Nova Southeastern University,"Fort Lauderdale, FL",Fort Lauderdale,FL,76,26317.0,1030-1240,1030.0,1240.0
+240,241,Liberty University,"Lynchburg, VA",Lynchburg,VA,50,28762.0,1040-1250,1040.0,1250.0
+241,242,Samford University,"Birmingham, AL",Birmingham,AL,84,31322.0,1060-1240,1060.0,1240.0
+242,243,Mercer University,"Macon, GA",Macon,GA,78,21693.0,1180-1340,1180.0,1340.0
+243,244,St. Bonaventure University,"Saint Bonaventure, NY",Saint Bonaventure,NY,76,23748.0,1030-1230,1030.0,1230.0
+244,245,Loyola University Chicago,"Chicago, IL",Chicago,IL,71,37731.0,1130-1330,1130.0,1330.0
+245,246,University of Oregon,"Eugene, OR",Eugene,OR,84,17646.0,1090-1290,1090.0,1290.0
+246,247,Whitman College,"Walla Walla, WA",Walla Walla,WA,54,38989.0,1230-1430,1230.0,1430.0
+247,248,Hallmark University,"San Antonio, TX",San Antonio,TX,41,9887.0,,,
+248,249,College of Saint Mary,"Omaha, NE",Omaha,NE,50,15128.0,,,
+249,250,CUNY Baruch College,"New York, NY",New York,NY,41,3897.0,1170-1360,1170.0,1360.0
