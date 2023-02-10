@@ -8,11 +8,11 @@ Cleaning steps:
 - Changing the field `acceptance` to `acceptance_rate` for clarity
 - CASTing `SAT_low` as INT64, rather than FLOAT, as all values are whole numbers
 - CASTing `SAT_high` as INT64, rather than FLOAT, as all values are whole numbers
-- Saved and over-wrote the original `top_250_colleges` table
 - Add a `region` column based on the Bureau of Economic Analysis’s economic regions of the USA
     - USA regions according to the Bureau of Economic Analysis:
         
         New England (CT, ME, MA, NH, RI, VT), Mid East (DE, DC, MD, NJ, NY, PA), Great Lakes (IL, IN, MI, OH, WI), Plains (IA, KS, MN, MO, NE, ND, SD), Southeast (AL, AR, FL, GA, KY, LA, MS, NC, SC, TN, VA, WV), Southwest (AZ, NM, OK, TX), Rocky Mountains (CO, ID, MT, UT, WY), Far West (AK, CA, HI, NV, OR, WA)
+- Saved and over-wrote the original `top_250_colleges` table
         
 
 ```sql
