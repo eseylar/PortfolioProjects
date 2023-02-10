@@ -1,6 +1,6 @@
 ## Exploring the Data in SQL
 
-**The second element of this exploratory data analysis was to use SQL to understand the dataset, identify trends, and interpret important values in the data.**
+**The third element of this exploratory data analysis was to use SQL to understand the dataset, identify trends, and interpret important values in the data.**
 
 After [cleaning the data](https://github.com/eseylar/PortfolioProjects/tree/main/TopCollegesAnalysis/SQLDataCleaning), I began to explore key values and trends in the cleaned data. Coming into this data exploration, I already had a solid grasp of things like number of rows and max/min values. I utilized SQL to, instead, look for commonalities among groupings like `states` and `region` and `rank`ing.
 
