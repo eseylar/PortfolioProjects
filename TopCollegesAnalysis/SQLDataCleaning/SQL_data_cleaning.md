@@ -1,6 +1,4 @@
-# Niche Top Colleges 2023 (SQL Data Cleaning)
-
-### Data Cleaning
+## Data Cleaning
 
 Data is relatively clean by this stage (most cleaning steps were taken during the scraping process).
 
