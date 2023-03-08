@@ -9,7 +9,7 @@ This five-part exploratory data project analyzes the trends within Niche.com's r
 - Designing an interactive data visualization
 In essence, I engage in most of the procedures involved in the data analysis lifecycle, from start to finish. I extract the data, transform the data, clean the data, explore the data, analyze the data, and present the data. 
 
-The data for this project was extracted from Niche.com, a website that aggregates data about colleges and universities and produces an annual list ranking the schools. Though Niche's proprietary formula ranks all the schools on which they have data, I limited my search to only the top 250 schools, as extending to _all_ schools limits our ability to investigate _top_ schools. Niche's 2023 Best Colleges ranking can be found [here](https://www.niche.com/colleges/search/best-colleges/).
+The data for this project was extracted from Niche.com, a website that aggregates data about colleges and universities and produces an annual list ranking the schools. Though Niche's proprietary formula ranks all the schools on which they have data, I limited my search to only the top 250 schools, as extending to _all_ schools limits our ability to investigate _top_ schools. Niche's 2023 Best Colleges ranking can be found [here](https://www.niche.com/colleges/search/best-colleges/). (An archived page can be found [here](https://web.archive.org/web/20230222162303/https://www.niche.com/colleges/search/best-colleges/).)
 
 All the code for this project can be found in this repository. However, this project is best viewed in the order it was executed. See the chart to access the steps in order.
 
