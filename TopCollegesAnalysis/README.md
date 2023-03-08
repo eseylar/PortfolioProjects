@@ -1,4 +1,4 @@
-# An Analysis of the Top US Colleges in 2023
+# 🎓 An Analysis of the Top US Colleges in 2023
 
 <img src="https://external.niche.com/rankings-badges/niche-best-colleges-badge-2023.png" width="250" height="250">
 
