@@ -26,4 +26,7 @@ All the code for this project can be found in this repository. However, this pro
 
 | Process | Tools Used |
 |---|---|
-| ⚠️ Under Construction | ⚠️ Under Construction |
+| Step 1: [Data Extraction and Data Cleaning in SQL](/2022MusicWrapped/1_SQLDataCleaning/) | SQL |
+| Step 2 | ⚠️ Under Construction! ⚠️ |
+| Step 3 | ⚠️ Under Construction! ⚠️ |
+| Step 4 | ⚠️ Under Construction! ⚠️ |
