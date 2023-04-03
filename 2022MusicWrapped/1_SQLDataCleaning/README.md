@@ -35,4 +35,6 @@ I wrote my queries in Google's BigQuery environment, so my functions use BigQuer
 - CASE/WHEN statements - to name numerical day of week data (e.g. 1 = "Sunday", 2 = "Monday" ...)
 - BETWEEN __ AND __ - to select only fields with datetime data between two certain dates
 
-The queries I used to clean my dataset (as well as comments explain my process) can be found within the file [SQL_data_cleaning.md](SQL_data_cleaning.md).
+⭐️ The queries I used to clean my dataset (as well as comments that explain my process) can be found within the file [SQL_data_cleaning.md](SQL_data_cleaning.md).
+
+⭐️ A sample of the cleaned table can be found [here](https://github.com/eseylar/PortfolioProjects/blob/main/2022MusicWrapped/1_SQLDataCleaning/(Sample)%20basic_2022_listening_data.csv) on my GitHub repository.
