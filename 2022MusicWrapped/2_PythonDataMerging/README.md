@@ -28,4 +28,6 @@ A major limitation of the MusicBrainz API is speed -- MusicBrainz itself is rela
 
 ⭐️ The code I used to extract and merge music metadata can be found [here](https://github.com/eseylar/PortfolioProjects/blob/main/2022MusicWrapped/2_PythonDataMerging/2022_Music_Wrapped_Data_Merging.ipynb) on my GitHub repository. The code is commented to increase readability.
 
+⭐️ Samples of the exported dataframes can be found on my GitHub repository -- [Genres Table](https://github.com/eseylar/PortfolioProjects/blob/main/2022MusicWrapped/2_PythonDataMerging/(Sample)%20genres_table.csv) & [Full Listening Data](https://github.com/eseylar/PortfolioProjects/blob/main/2022MusicWrapped/2_PythonDataMerging/(Sample)%20full_2022_listening_data.csv)
+
 Note: I am not uploading the .csv file of my entire listening history here in order to maintain privacy.
