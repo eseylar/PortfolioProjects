@@ -27,6 +27,6 @@ All the code for this project can be found in this repository. However, this pro
 | Process | Tools Used |
 |---|---|
 | Step 1: [Data Extraction and Data Cleaning in SQL](/2022MusicWrapped/1_SQLDataCleaning/) | SQL |
-| Step 2 | ⚠️ Under Construction! ⚠️ |
-| Step 3 | ⚠️ Under Construction! ⚠️ |
-| Step 4 | ⚠️ Under Construction! ⚠️ |
+| Step 2: [Data Merging and Extraction in Python](https://github.com/eseylar/PortfolioProjects/tree/main/2022MusicWrapped/2_PythonDataMerging) | Python (Jupyter Notebook), Pandas library, NumPy library, MusicBrainz API |
+| Step 3: [Data Analysis in SQL](https://github.com/eseylar/PortfolioProjects/tree/main/2022MusicWrapped/3_SQLAnalysis) | SQL |
+| Step 4: [Data Visualization in Figma](https://github.com/eseylar/PortfolioProjects/tree/main/2022MusicWrapped/4_DataVisualization) | Figma (graphic design tool) |
