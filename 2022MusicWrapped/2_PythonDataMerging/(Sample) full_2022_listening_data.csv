@@ -1,0 +1,26 @@
+album,artist,song,date_time_CST,date_CST,weekday_num,weekday,time_CST,duration,artist_id,song_id
+Easy on Me,Adele,Easy on Me,2022-01-01 01:30:00.000000 UTC,2022-01-01,7,Saturday,01:30,224.0,cc2c9c3c-b7bc-4b8b-84d8-4fbd8779e493,a7720370-b5a1-49b0-983a-85081f0bcbfe
+Summertime Dream,Gordon Lightfoot,The Wreck of the Edmund Fitzgerald,2022-01-02 13:50:00.000000 UTC,2022-01-02,1,Sunday,13:50,378.44,9d97b077-b28d-4ba8-a3d9-c71926e3b2b6,d915efde-ac73-4d98-89fb-02367bea16b7
+Album 1700,Peter Paul and Mary,Leaving On A Jet Plane,2022-01-02 13:56:00.000000 UTC,2022-01-02,1,Sunday,13:56,211.0,3d621c94-2356-4532-ad52-79e0ef73e20c,c8543035-5b88-47ac-b315-852452eac710
+Joan Armatrading,Joan Armatrading,Down To Zero,2022-01-02 14:00:00.000000 UTC,2022-01-02,1,Sunday,14:00,230.933,fa598e78-5cc5-4a8b-a3b5-63934d4712c7,dca7e5d1-44f6-47c5-bbc5-1e0462ecadb1
+Baez Sings Dylan,Joan Baez,It Ain't Me Babe,2022-01-02 14:04:00.000000 UTC,2022-01-02,1,Sunday,14:04,201.16,92d37892-6186-4459-9cc1-f0dde57652d0,3941835d-96ca-4815-b939-3c2f638831f5
+The Essential John Denver,John Denver,Take Me Home Country Roads,2022-01-02 14:07:00.000000 UTC,2022-01-02,1,Sunday,14:07,192.0,34e10b51-b5c6-4bc1-b70e-f05f141eda1e,64f54ab5-762c-49e1-a31f-72ec794fea0f
+Harvest (2009 Remaster),Neil Young,Heart of Gold - 2009 Remaster,2022-01-02 14:10:00.000000 UTC,2022-01-02,1,Sunday,14:10,187.0,75167b8b-44e4-407b-9d35-effe87b223cf,98c0f541-6e2f-4687-8d4d-a33cc6815b4f
+Fleetwood Mac,Fleetwood Mac,Landslide,2022-01-02 14:13:00.000000 UTC,2022-01-02,1,Sunday,14:13,198.823,bd13909f-1c29-4c27-a874-d4aaf27c5b1a,d8ca87a6-07cf-4881-8ba1-73a17f6f730b
+Harvest Moon,Neil Young,Harvest Moon,2022-01-02 14:17:00.000000 UTC,2022-01-02,1,Sunday,14:17,229.0,75167b8b-44e4-407b-9d35-effe87b223cf,727757fb-a86f-4d20-bb40-2e8fb99ade02
+Sweet Baby James,James Taylor,Sweet Baby James - 2019 Remaster,2022-01-02 14:22:00.000000 UTC,2022-01-02,1,Sunday,14:22,254.226,107d0c22-d051-4d98-8206-4e14de02132a,3207db5c-8c03-4848-a1f1-64b25be0ce20
+Sundown,Gordon Lightfoot,Sundown,2022-01-02 14:25:00.000000 UTC,2022-01-02,1,Sunday,14:25,225.0,9d97b077-b28d-4ba8-a3d9-c71926e3b2b6,c722ff73-97b4-4a90-b879-4b1b147d544c
+Ladies of the Canyon,Joni Mitchell,Big Yellow Taxi,2022-01-02 14:29:00.000000 UTC,2022-01-02,1,Sunday,14:29,230.0,a6de8ef9-b1a1-4756-97aa-481bbb8a4069,aac7e2e4-5122-4773-9602-1362226cdb92
+Tea For The Tillerman,Yusuf / Cat Stevens,Miles From Nowhere,2022-01-02 14:31:00.000000 UTC,2022-01-02,1,Sunday,14:31,248.0,e2345fdf-2be7-47c5-a6dd-be64353ad134,28d5c9f6-e273-4590-904e-6df8d4e3e338
+A Carnival of Fears,Yellow House,Love in the Time of Socialism,2022-01-02 14:39:00.000000 UTC,2022-01-02,1,Sunday,14:39,96.0,d591606c-a431-413b-ae69-16e2ae5fe828,ed150d92-176d-4964-866d-d3ba5e18241a
+RKS,Rainbow Kitten Surprise,Cocaine Jesus,2022-01-02 14:43:00.000000 UTC,2022-01-02,1,Sunday,14:43,229.666,ab4e7869-86f5-455e-b52c-c89d7664c07b,b2fb796a-38d2-49ba-8dba-d9593cba94e7
+Bluebird,Canyon City,Lost Sparks,2022-01-02 19:13:00.000000 UTC,2022-01-02,1,Sunday,19:13,196.333,ab74ae08-cced-49d7-a6e2-de91b219f6b0,4cfc96b4-55d7-4d95-86f8-d8d4c958b2a5
+Through the Deep Dark Valley,The Oh Hellos,I Have Made Mistakes,2022-01-02 19:17:00.000000 UTC,2022-01-02,1,Sunday,19:17,152.0,4b85cdd2-3c60-4578-8543-401c02f25756,e73d64ac-86c7-4105-ae0c-2b8055a0dd85
+Evermore,Hollow Coves,Evermore,2022-01-02 19:21:00.000000 UTC,2022-01-02,1,Sunday,19:21,223.846,f50e7f7a-7c45-4cd1-b541-c2302a1fda65,09bbf9dd-e316-44c7-80d3-29b53e62883b
+Islands,Bear's Den,The Love We Stole,2022-01-02 19:25:00.000000 UTC,2022-01-02,1,Sunday,19:25,222.0,f11f6e85-a39a-4dd8-875b-cd84839ddec6,9654322b-79af-4771-8af3-d334fc5758de
+Milo Greene,Milo Greene,Autumn Tree,2022-01-02 19:29:00.000000 UTC,2022-01-02,1,Sunday,19:29,230.92,43107061-a4fe-4efc-81ba-5515ddd26053,713274ad-a8a8-46a5-89a9-dcc9a8a73591
+Punisher,Phoebe Bridgers,DVD Menu,2022-01-02 19:34:00.000000 UTC,2022-01-02,1,Sunday,19:34,69.931,96855c21-b832-4366-ba12-0d2330c36a86,2896ba45-420c-4329-83b7-ec08015434b8
+Punisher,Phoebe Bridgers,Garden Song,2022-01-02 19:35:00.000000 UTC,2022-01-02,1,Sunday,19:35,220.0,96855c21-b832-4366-ba12-0d2330c36a86,ae3f6267-1434-4e83-86ad-4b88dceb4c28
+Punisher,Phoebe Bridgers,Kyoto,2022-01-02 19:39:00.000000 UTC,2022-01-02,1,Sunday,19:39,184.524,96855c21-b832-4366-ba12-0d2330c36a86,da642ef6-64db-4adf-8aeb-8ad4cacb6966
+Punisher,Phoebe Bridgers,Punisher,2022-01-02 19:42:00.000000 UTC,2022-01-02,1,Sunday,19:42,189.0,96855c21-b832-4366-ba12-0d2330c36a86,00839a86-3386-4039-890e-500949856edc
+Punisher,Phoebe Bridgers,Halloween,2022-01-02 19:45:00.000000 UTC,2022-01-02,1,Sunday,19:45,271.0,96855c21-b832-4366-ba12-0d2330c36a86,b385640a-b6c8-422a-b541-f009224b4c10
