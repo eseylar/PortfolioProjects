@@ -1,4 +1,4 @@
-# 🎵 Un-Wrapped: Making Sense of My 2022 Music Habits
+# 🎧 Un-Wrapped: Making Sense of My 2022 Music Habits
 
 Every year around December, music streaming service Spotify releases its annual "Wrapped" feature. The much-loved, much-publicized Spotify Wrapped gives each Spotify user a breakdown of their own listening history for the preceding calendar year, highlighting metrics like minutes of streaming, top songs, top artists, and top genres. To social media users, the day Spotify Wrapped releases almost appears to be a holiday. Release day is anticipated and celebrated. Myriad screenshots, jokes, and think pieces litter Instagram and Twitter feeds for days after Wrapped begins appearing on users' Spotify apps. It is truly a master-class in individualized brand experiences. 
 
