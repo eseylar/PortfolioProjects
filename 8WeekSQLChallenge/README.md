@@ -7,5 +7,5 @@ SQL skills used range from beginner (SELECT, ORDER BY, WHERE, etc.) to intermedi
 | **Case Study** |
 |---|
 | [1️⃣ Case Study 1: Danny’s Diner](https://github.com/eseylar/PortfolioProjects/tree/main/8WeekSQLChallenge/CaseStudy1)  |
-| [2️⃣ Case Study 3: Foodie-Fi](https://github.com/eseylar/PortfolioProjects/tree/main/8WeekSQLChallenge/CaseStudy3)  |
-| [3️⃣ Case Study 4: Data Bank](https://github.com/eseylar/PortfolioProjects/tree/main/8WeekSQLChallenge/CaseStudy4)  |
+| [3️⃣ Case Study 3: Foodie-Fi](https://github.com/eseylar/PortfolioProjects/tree/main/8WeekSQLChallenge/CaseStudy3)  |
+| [4️⃣ Case Study 4: Data Bank](https://github.com/eseylar/PortfolioProjects/tree/main/8WeekSQLChallenge/CaseStudy4)  |
